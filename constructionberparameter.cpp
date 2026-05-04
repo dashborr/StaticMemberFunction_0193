@@ -5,3 +5,9 @@ class mahasiswa{
 public:
     mahasiswa(int nim,string nama);
 };
+
+mahasiswa::mahasiswa(int nim,string nama) {
+    cout << "constructor dengan paramater" << endl;
+    cout << "Nim" << nim << endl;
+    cout << "Nama" << nama << endl;
+};
