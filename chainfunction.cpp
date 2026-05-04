@@ -15,3 +15,17 @@ public:
         return this->judul;
     }
 };
+
+int main() 
+{
+    buku bukunya;
+
+    // Contoh pemanggilan biasa yang dikomentari:
+    // bukunya.setJudul("IPA");
+    // cout << bukunya.getJudul();
+
+    // Contoh Chain Function Calls:
+    cout << bukunya.setJudul("Matematika").getJudul(); 
+
+    return 0;
+}
