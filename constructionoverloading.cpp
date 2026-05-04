@@ -34,3 +34,14 @@ mahasiswa::mahasiswa(){}
     cout << "nim" << nim << endl;
     cout << "nama" << nama << endl;
  }
+
+ int main(){
+    mahasiswa mhs1 (1002030);
+    mahasiswa mhs2 ("Andi");
+    mahasiswa mhs3 (202504,"Santi");
+
+    cout << "mahasiswa 1" ; mhs1.cetak();
+    cout << "mahasiswa 2" ; mhs2.cetak();
+    cout << "Mahasiswa 3" ; mhs3.cetak();
+    return 0;
+ }
