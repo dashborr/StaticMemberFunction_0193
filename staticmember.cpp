@@ -1,21 +1,20 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-class Mahasiswa {
+class Mahasiswa { //membuat class mahasiswa
 
 public:
-    static int nim;
-
+    static int nim; //deklarasi variabel static yaitu variabel nim
+    //deklarasi variabel member
     int id;
     string nama;
 
+    //deklarasi prosedur setID() dan printAll()
     void setID();
-    void printAll()
+    void printAll();
 
-    Mahasiswa(string pnama) :nama(pnama) {
-    18
-    setID();
+    //pembuatan constructor Mahasiswa dengan parameter pnama
+    Mahasiswa(string pnama) : nama(pnama) {
+        setID();
     }
-
 };
-
